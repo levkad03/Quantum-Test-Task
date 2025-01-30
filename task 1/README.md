@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 python train.py
 ```
-- to try out the model, download the weights from [here](https://drive.google.com/file/d/12HosezWe7W8HSKSSx1Swrb68-roi3RGv/view?usp=sharing), unpack the archive and put "saved_model" folder in folder "task 1"
+- to try out the model, download the weights from [here](https://drive.google.com/file/d/1D8X0NEcPUf-Qoc-DXs7vhlMK3YfGlTkV/view?usp=sharing), unpack the archive and put "saved_model" folder in folder "task 1"
 - to run demo:
 ```
 python inference.py
