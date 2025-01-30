@@ -64,7 +64,7 @@ model = AutoModelForTokenClassification.from_pretrained(
 
 # Define training arguments
 training_args = TrainingArguments(
-    output_dir="results",
+    output_dir="task 1/results",
     evaluation_strategy="epoch",
     learning_rate=2e-5,
     per_device_train_batch_size=16,
@@ -94,5 +94,5 @@ results = trainer.evaluate()
 print(results)
 
 # Save trained model and tokenizer
-model.save_pretrained("saved_model")
-tokenizer.save_pretrained("saved_model")
+model.save_pretrained("task 1/saved_model")
+tokenizer.save_pretrained("task 1/saved_model")

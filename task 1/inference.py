@@ -1,6 +1,6 @@
 from transformers import AutoModelForTokenClassification, AutoTokenizer, pipeline
 
-model_path = "saved_model"
+model_path = "task 1/saved_model"
 
 id2label = {0: "O", 1: "B-MNTN", 2: "I-MNTN"}
 
@@ -9,7 +9,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer)
 
-sentence = "The Mount Everest is the highest mountain in the world."
+sentence = "The Aconcagua is the highest mountain in the world."
 
 results = ner_pipeline(sentence)
 
