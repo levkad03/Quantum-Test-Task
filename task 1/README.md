@@ -7,6 +7,7 @@ mountain names inside the texts.
 - `dataset.ipynb` - notebook with dataset generation
 - `train.py` - model training
 - `inference.py` - code for model inference
+- `demo.ipynb` - notebook with model demonstration
 
 # How to run
 - install all dependencies
@@ -22,3 +23,4 @@ python train.py
 ```
 python inference.py
 ```
+Also you can try out the model in `demo.ipynb`
