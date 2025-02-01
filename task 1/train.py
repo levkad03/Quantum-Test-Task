@@ -56,7 +56,7 @@ train_test_split = tokenized_dataset.train_test_split(test_size=0.2)
 train_dataset = train_test_split["train"]
 test_dataset = train_test_split["test"]
 
-# Загрузка модели
+# Load the model
 model = AutoModelForTokenClassification.from_pretrained(
     "bert-base-uncased",
     num_labels=len(label_to_id),  # Set number of unique labels
