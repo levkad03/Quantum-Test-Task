@@ -11,7 +11,7 @@ mountain names inside the texts.
 - `demo.ipynb` - notebook with model demonstration
 
 # Model
-In this task I used pretrained [**Bert Base uncased model**](https://huggingface.co/google-bert/bert-base-uncased) and finetuned it with mountain dataset
+In this task I used pretrained [**BERT Base uncased model**](https://huggingface.co/google-bert/bert-base-uncased) and finetuned it with mountain dataset
 
 # How to run
 - install all dependencies

@@ -1,6 +1,8 @@
 # Task 2. Computer vision. Sentinel-2 image matching
 In this task, we will work on the algorithm (or model) for matching satellite images.
 
+![image demo](static/image_demo.png)
+
 # Dataset
 The dataset used was [Deforestation in Ukraine from Sentinel2 data](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine)
 
