@@ -4,10 +4,14 @@ In this task, we need to train a named entity recognition (NER) model for the id
 mountain names inside the texts.
 
 # Folder structure
+- folder `data` contains annotated dataset of English sentences with mountains
 - `dataset.ipynb` - notebook with dataset generation
 - `train.py` - model training
 - `inference.py` - code for model inference
 - `demo.ipynb` - notebook with model demonstration
+
+# Model
+In this task I used pretrained [**Bert Base uncased model**](https://huggingface.co/google-bert/bert-base-uncased) and finetuned it with mountain dataset
 
 # How to run
 - install all dependencies
