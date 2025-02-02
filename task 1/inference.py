@@ -1,6 +1,6 @@
 from transformers import AutoModelForTokenClassification, AutoTokenizer, pipeline
 
-model_path = "task 1/saved_model"
+model_path = "saved_model"
 
 # id to label for better understanding
 id2label = {0: "O", 1: "B-MNTN", 2: "I-MNTN"}
