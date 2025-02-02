@@ -3,7 +3,7 @@ import random
 
 from model import LoFTR_Matcher
 
-image_folder_path = "task 2/image_dataset"
+image_folder_path = "image_dataset"
 
 # Find all the images
 image_list = [
